@@ -103,7 +103,7 @@ int main() {
       char var1[500];
       int var2;
 
-      pFile=fopen("animals.txt","r");
+      pFile=fopen("dictionary.txt","r");
       if(pFile==NULL){
         printf("Not possible to open file");
       }
