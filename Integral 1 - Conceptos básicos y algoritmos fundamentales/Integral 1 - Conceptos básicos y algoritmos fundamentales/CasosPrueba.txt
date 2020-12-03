@@ -1,0 +1,114 @@
+#Casos de prueba:
+
+Input 1:
+Output:
+Movie   NormOfTheNorth  90
+Movie   Jandino 94
+TVShow  TransformersPrime       1
+Movie   #realityhigh    99
+TVShow  Apaches 1
+Movie   Automata        110
+Movie   FabrizioCopano 60
+TVShow  FireChasers     1
+Movie   GoodPeople      90
+Movie   Love    135
+Movie   ManhattanRomance        98
+Movie   Moonwalkers     96
+Movie   RollingPapers   79
+Movie   StonehearstAsylum       113
+Movie   TheRunner       90
+Movie   6Years  80
+TVShow CastleOfStars    1
+Movie   CityOfJoy       77
+TVShow  FirstAndLast    1
+Movie   Laddaland       112
+
+Input 2, p
+Output:
+Categry A-Z     Title    Duration
+Movie           NormOfTheNorth   90
+Movie           Jandino   94
+Movie           #realityhigh   99
+Movie           Automata   110
+Movie           FabrizioCopano   60
+Movie           GoodPeople   90
+Movie           Love   135
+Movie           ManhattanRomance   98
+Movie           Moonwalkers   96
+Movie           RollingPapers   79
+Movie           StonehearstAsylum   113
+Movie           TheRunner   90
+Movie           6Years   80
+Movie           CityOfJoy   77
+Movie           Laddaland   112
+TVShow          Apaches   1
+TVShow          CastleOfStars   1
+TVShow          FireChasers   1
+TVShow          FirstAndLast   1
+TVShow          TransformersPrime   1
+
+Input 2, S
+Output:
+Resultado en el archivo
+
+Input 3,P
+Output:
+Category        Title A-Z        Duration
+Movie           #realityhigh   99
+Movie           6Years   80
+TVShow          Apaches   1
+Movie           Automata   110
+TVShow          CastleOfStars   1
+Movie           CityOfJoy   77
+Movie           FabrizioCopano   60
+TVShow          FireChasers   1
+TVShow          FirstAndLast   1
+Movie           GoodPeople   90
+Movie           Jandino   94
+Movie           Laddaland   112
+Movie           Love   135
+Movie           ManhattanRomance   98
+Movie           Moonwalkers   96
+Movie           NormOfTheNorth   90
+Movie           RollingPapers   79
+Movie           StonehearstAsylum   113
+Movie           TheRunner   90
+TVShow          TransformersPrime   1
+
+Input: 3, S
+oUTPUT:
+Sorted data in file SortedT.txt
+
+Input: 4, Becoming
+Output:
+Movie
+Categry         Title   Duration
+Movie   NormOfTheNorth  90
+Categry         Title   Duration
+Movie   Jandino 94
+Categry         Title   Duration
+Movie   #realityhigh    99
+Categry         Title   Duration
+Movie   Automata        110
+Categry         Title   Duration
+Movie   FabrizioCopano 60
+Categry         Title   Duration
+Movie   GoodPeople      90
+Categry         Title   Duration
+Movie   Love    135
+Categry         Title   Duration
+Movie   ManhattanRomance        98
+Categry         Title   Duration
+Movie   Moonwalkers     96
+Categry         Title   Duration
+Movie   RollingPapers   79
+Categry         Title   Duration
+Movie   StonehearstAsylum       113
+Categry         Title   Duration
+Movie   TheRunner       90
+Categry         Title   Duration
+Movie   6Years  80
+Categry         Title   Duration
+Movie   CityOfJoy       77
+Categry         Title   Duration
+Movie   Laddaland       112
