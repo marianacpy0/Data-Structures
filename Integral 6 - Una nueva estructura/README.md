@@ -2,7 +2,7 @@
 
 La estrucuta utilizada para esta actividad integradora fue Ternary Search Tree o TST.
 
-Esta es un tipo de estructura especial de tipo Trie, lo child nodes de un trie
+Esta es un tipo de estructura especial de tipo Trie, en donde los child nodes de un trie
 
 estándar se ordenan primero. 
 
