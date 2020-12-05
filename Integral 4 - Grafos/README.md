@@ -30,6 +30,8 @@ distancia, al ser una lista de adjacencia su complejidad es de O(|V|+|E|)
 
 -Shortest Path:
 
-Esta función hace uso del algoritmo de Dijkstra, por lo que su análisis de complejidad
+Esta función hace uso del algoritmo de Dijkstra para encontrar el camino mas corto entre dos destinos
+
+por lo que su análisis de complejidad
 
 es de O(|V|^2)
