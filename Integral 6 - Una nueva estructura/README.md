@@ -6,6 +6,8 @@ Esta es un tipo de estructura especial de tipo Trie, en donde los child nodes de
 
 estándar se ordenan primero. 
 
+![alt text](https://www.cs.upc.edu/~ps/downloads/tst/9804af3.gif)
+
 A diferencia de una estrucuta de datos trie en donde cada nodo tiene apuntadores 
 
 para sus hiijps, aquí cada nodo de un TST contiene solo tres apuntadores:
