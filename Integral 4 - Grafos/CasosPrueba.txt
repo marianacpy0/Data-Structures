@@ -1,0 +1,44 @@
+input: 1
+input: 3
+Output esperado:
+Huanuni has 55 miles distance to Copacabana
+Copacabana has 55 miles distance to Huanuni
+Morelia has 48 miles distance to Guadalajara
+Guadalajara has 48 miles distance to Morelia
+Mazatlán has 68 miles distance to Acaponeta
+Dongguan has 45 miles distance to Tangshan
+Mexicali has 14 miles distance to Zacatecas
+Tangshan has 45 miles distance to Dongguan
+Nagoya has 25 miles distance to Tokyo
+Tokyo has 25 miles distance to Nagoya
+Vancouver has 67 miles distance to Winnipeg
+Acapulco has 24 miles distance to Ixtapa
+León has 37 miles distance to Culiacán
+Zamora has 50 miles distance to Durango
+Monclova has 30 miles distance to Zapopan
+Coatzacoalcos has 5 miles distance to Minatitlán
+Ixtapa has 24 miles distance to Acapulco
+Coyoacán has 84 miles distance to Irapuato
+Durango has 50 miles distance to Zamora
+Sacramento has 72 miles distance to Jacksonville
+Acaponeta has 68 miles distance to Mazatlán
+Minatitlán has 5 miles distance to Coatzacoalcos
+Houston has 19 miles distance to Seattle
+Cincinatti has 29 miles distance to Pittsburg
+Pittsburg has 29 miles distance to Cincinatti
+Dallas has 27 miles distance to Miami
+Barcelona has 33 miles distance to Madrid
+Winnipeg has 67 miles distance to Vancouver
+Tampico has 91 miles distance to Monterrey
+Zapopan has 30 miles distance to Monclova
+Madrid has 33 miles distance to Barcelona
+Irapuato has 84 miles distance to Coyoacán
+Seattle has 19 miles distance to Houston
+Culiacán has 37 miles distance to León
+Zacatecas has 14 miles distance to Mexicali
+Miami has 27 miles distance to Dallas
+Monterrey has 91 miles distance to Tampico
+Jacksonville has 72 miles distance to Sacramento
+Montreal has 73 miles distance to Quebec
+Quebec has 73 miles distance to Montreal
+
