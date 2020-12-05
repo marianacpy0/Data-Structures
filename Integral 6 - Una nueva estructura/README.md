@@ -24,7 +24,7 @@ Cada nodo tiene un campo para indicar datos.
 
 Es similar al BST pero en este caso los tados se distibuyen en nodos, con la 
 
-ventaja de que ocupa menor
+ventaja de que ocupa menor espacio. (no supe agregar el diagrama).
 
 Este tipo de estructuras tiene dos aplicaciones principales:
 
