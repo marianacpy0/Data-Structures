@@ -24,7 +24,9 @@ Cada nodo tiene un campo para indicar datos.
 
 Es similar al BST pero en este caso los tados se distibuyen en nodos, con la 
 
-ventaja de que ocupa menor espacio. (no supe agregar el diagrama).
+ventaja de que ocupa menor espacio.
+
+![alt text](https://media.geeksforgeeks.org/wp-content/cdn-uploads/Ternary-Search-Tree.png)
 
 Este tipo de estructuras tiene dos aplicaciones principales:
 
