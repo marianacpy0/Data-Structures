@@ -55,21 +55,28 @@ void recorreTST(struct Node* root) {
 }
 
 // Agregar una nueva palabra al árbol
+// Se hace uso de doble apuntador por que la informacion
+// en esta estructura se distribuye en nodos 
+// por ejemplo para guardar la palabra "hola" se necesitan 4 nodos
 void add(struct Node** root, char* var) {
+    // El arbol esta vacío
     if (!(*root))
         *root = newNode(*var);
-
+    // Si el caracter actual de la palabra es menor al de la raíz
+    // Se inserta la palabra a la izquierda del subtree
     if ((*var) < (*root)->data)
         add(&((*root)->left), var);
+        // Si el caracter actual de la palabra es mayor al de la raíz
+    // Se inserta la palabra a la izquierda del subtree
 
     else if ((*var) > (*root)->data)
         add(&((*root)->right), var);
-
+    //El caracter actual de la palabra es igual al de la raíz 
     else {
 
         if (*(var + 1))
             add(&((*root)->ig), var + 1);
-
+        // ultimo caracter de la palabra 
         else
             (*root)->end = 1;
     }
