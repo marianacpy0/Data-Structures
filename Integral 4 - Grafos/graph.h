@@ -66,25 +66,24 @@ void Graph::shortestPath(string src , string dst){
         cout<<"No possible path"<<endl<<endl;
     }
     else if(map[src].empty()){
-        cout<<"You're on another planet."<<endl<<endl;
+        cout<<"No matching destinations."<<endl<<endl;
     }
     else{
-        unordered_map <string , pair<int, string> > distances;//carries all distances to all the nodes from src and the previous node from the path
+        unordered_map <string , pair<int, string> > distances;//Carga todas las distancias de todos los nodos
         for(auto it = map.begin() ; it != map.end() ; it++){
-            distances[it->first].first = 99999;//intialize all the distances with "infinity"
-            distances[it->first].second = "None";//and still you didn't reach any of them
+            distances[it->first].first = 99999;//Inicializa en infinito
+            distances[it->first].second = "None";//No se encontro ninguno
         }
-        distances[src].first = 0;//distance between src and src equals 0
-        set < pair < int , string > > neighbors;//carries all the neighbors of the current node
-        neighbors.insert(make_pair(0,src));//first step passing throgh src
-        while (!neighbors.empty()){//finish calculating the shortest path from the current node to all it's neighbors
+        distances[src].first = 0;//La distancia de locación es igual a 0
+        set < pair < int , string > > neighbors;//arrastra a todos los nodos 
+        neighbors.insert(make_pair(0,src));//Primer paso, pasa por locación
+        while (!neighbors.empty()){//Termina de calcular el camino mas corto
             node tmp;
-            tmp.destination=neighbors.begin()->second;//store the top neighbor in the set as the current node
-            tmp.n=neighbors.begin()->first;//store the top neighbor in the set as the current node
-            neighbors.erase(neighbors.begin());//remove the neighbor that was just stored to empty the set from calculated neighbor's path
-            for(auto it=map[tmp.destination].begin() ; it != map[tmp.destination].end() ; it++){//loop over all the current node's neighbors
-                if(tmp.n + it->n <= distances[it->destination].first){// if the total cost(sum of weights) for getting to the current node + the weight of the neighbor's edge less than the stored cost in the ( unordered_map <string , pair<int, string> > distances; ) that carries all distances to all the nodes from src and the previous node from the path
-                    //if true replace the current stored path in the ( unordered_map <string , pair<int, string> > distances; ) that carries all distances to all the nodes from src and the previous node from the path
+            tmp.destination=neighbors.begin()->second;//guarda el top node en el get del nodo
+            tmp.n=neighbors.begin()->first;//guarda el top node como sel set del noto actual
+            neighbors.erase(neighbors.begin());//Elimina los nodos que fueron gurdados
+            for(auto it=map[tmp.destination].begin() ; it != map[tmp.destination].end() ; it++){//loop en el nodo actual
+                if(tmp.n + it->n <= distances[it->destination].first){//Suma de los nodos de hacer varios recorridos del path
                     auto old_pair = make_pair(distances[it->destination].first , it->destination);
                     auto find_old_pair = neighbors.find(old_pair);
                     if(find_old_pair!=neighbors.end()){
@@ -99,13 +98,13 @@ void Graph::shortestPath(string src , string dst){
         }
         cout<<"The total distance: "<<distances[dst].first<<endl<<endl;
         cout<<"The shortest path is through locations: ";
-        vector <string> locations;//stores the path
-        string loc = dst;//starting from dst
+        vector <string> locations;//guarda el camino
+        string loc = dst;//inicia desde destination
         while(loc != "None"){
-            locations.push_back(loc);//store the node that you came from all the way to src
+            locations.push_back(loc);//Guarda el nodo hasta location
             loc = distances[loc].second;
         }
-        for(int i=locations.size()-1 ; i>-1 ; i--){//because the path stored in reverse in the ( vector <string> locations; ) 
+        for(int i=locations.size()-1 ; i>-1 ; i--){//El nodo se guarda en reversa, se cambia
             cout<<locations[i]<<"  ";
         }
         cout<<endl<<endl;
