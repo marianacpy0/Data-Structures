@@ -6,6 +6,24 @@ Esta es un tipo de estructura especial de tipo Trie, en donde los child nodes de
 
 estándar se ordenan primero. 
 
+A diferencia de una estrucuta de datos trie en donde cada nodo tiene apuntadores 
+
+para sus hiijps, aquí cada nodo de un TST contiene solo tres apuntadores:
+
+1.El puntero izquierdo (izq) apunta al nodo cuyo valor es inferior al valor del 
+
+nodo actual
+
+2.El puntero igual (ig) apunta al nodo cuyo valor es igual al nodo actual
+
+3.El puntero derecho (der) apunta al nodo cuyo valor es mayor que el valor
+
+en el nodo actual.
+
+Cada nodo tiene un campo para indicar datos.
+
+Es similar al BST pero en este caso los tados se distibuyen en nodos.
+
 Este tipo de estructuras tiene dos aplicaciones principales:
 
 1. Para realizar búsquedas específicas 
