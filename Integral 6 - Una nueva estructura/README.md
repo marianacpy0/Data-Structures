@@ -22,7 +22,9 @@ en el nodo actual.
 
 Cada nodo tiene un campo para indicar datos.
 
-Es similar al BST pero en este caso los tados se distibuyen en nodos.
+Es similar al BST pero en este caso los tados se distibuyen en nodos, con la 
+
+ventaja de que guarda más espacios
 
 Este tipo de estructuras tiene dos aplicaciones principales:
 
