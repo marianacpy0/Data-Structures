@@ -1,11 +1,5 @@
-# Correcciones
+# Estructuras de Datos
 
-1. La actividad integral 1 tenía errores de compliación, faltaba la implementación de un método de ordenamiento
+Este repositorio contiene diferentes algoritmos de estructuras de datos 
 
-Se corrigieron los errores, el análisis de complejidad y se agregaron casos de prueba. 
-
-2. La actividad integral 4 tenía grafos implentados pero sin realizar operaciones 
-
-con archivos, se agregaron casos de manejo de archivos. 
-
-3. Explicación de la actividad integral 6
+aplicados a ejemplos reales. 
